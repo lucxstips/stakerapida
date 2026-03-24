@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Calculadora de Stake",
+  "version": "1.0",
+  "description": "Calcula o valor exato da aposta em Reais baseado na sua unidade padrão.",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "storage"
+  ]
+}

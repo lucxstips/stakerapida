@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h2>🎯 Calc Stake</h2>
+    
+    <div class="header-group">
+      <label for="unitValue">Sua Unidade Padrão (R$):</label>
+      <input type="number" id="unitValue" step="0.01" min="0" placeholder="Ex: 100">
+    </div>
+
+    <div class="tabs">
+      <button class="tab-btn active" data-mode="simples">Simples</button>
+      <button class="tab-btn" data-mode="dupla">Duplas</button>
+      <button class="tab-btn" data-mode="tripla">Triplas</button>
+    </div>
+
+    <div id="dynamic-fields" class="fields-container"></div>
+
+    <div class="result-box">
+      <p>Total a Desembolsar:</p>
+      <h3 id="totalAmount">R$ 0,00</h3>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
